@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:orientation="vertical" android:layout_marginTop="@dimen/dimen_16x" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.widget.CardView android:layout_height="wrap_content" android:layout_width="match_parent" app:cardElevation="@dimen/dimen_8x" app:cardCornerRadius="@dimen/dimen_8x" android:layout_marginRight="@dimen/dimen_16x" android:layout_marginLeft="@dimen/dimen_16x" android:layout_marginBottom="@dimen/dimen_16x">
+
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:padding="@dimen/dimen_32x" android:id="@+id/topicRelativeLayout">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/topicTextView" android:textStyle="bold" android:textSize="@dimen/text_32x" android:textColor="@color/white" android:text="TextView" android:layout_centerVertical="true" android:layout_alignParentLeft="true" android:layout_alignLeft="@+id/topicImageView"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/topicImageView" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_trophy" android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>
